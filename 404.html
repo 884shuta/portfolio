@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.notFound.title">404 | ページが見つかりません</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-projects-json="projects-data.json" data-asset-prefix="">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="./">884shuta</a>
+      <nav class="nav-links">
+        <a href="projects/" data-i18n="nav.projects">プロジェクト</a>
+        <a href="about/" data-i18n="nav.about">プロフィール</a>
+        <a href="contact/" data-i18n="nav.contact">連絡先</a>
+        <div class="lang-toggle" role="group" aria-label="言語切替" data-i18n-aria-label="ui.languageToggle">
+          <button class="lang-btn" type="button" data-lang="ja" aria-pressed="true">JA</button>
+          <button class="lang-btn" type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <button class="btn ghost" id="themeToggle" type="button" aria-label="テーマ切替"
+          data-i18n-aria-label="ui.themeToggle">🌓</button>
+      </nav>
+    </div>
+  </header>
+  <main class="section">
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h1>404</h1>
+          <p class="muted" data-i18n="notFound.message">お探しのページは見つかりませんでした。</p>
+          <a class="btn" href="./" data-i18n="notFound.cta">トップへ戻る</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

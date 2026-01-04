@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Portfolio</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body data-asset-prefix="../">
+
+  <!-- ナビゲーション -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="glass-nav glass">
+        <a href="../index.html" class="logo">PORTFOLIO</a>
+
+        <div class="nav-links">
+          <a href="index.html" class="active" data-i18n="nav_projects">Projects</a>
+          <a href="../about/index.html" data-i18n="nav_about">About</a>
+          <a href="../contact/index.html" data-i18n="nav_contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="btn-text lang-btn active" data-lang="en">EN</button>
+          <button class="btn-text lang-btn" data-lang="ja">JA</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container" style="padding: 4rem 0;">
+    <h1 data-i18n="projects_title">All Projects</h1>
+    <p data-i18n="projects_desc">Explore my latest work and side projects.</p>
+
+    <!-- コントロール -->
+    <div class="controls glass" style="padding: 1.5rem; border-radius: var(--radius); margin-bottom: 3rem;">
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input" placeholder="Search projects..."
+          data-i18n="search_placeholder" />
+      </div>
+      <div id="tag-filters" class="filter-tags">
+        <!-- JSによる挿入 -->
+      </div>
+    </div>
+
+    <!-- グリッド -->
+    <div id="project-list" class="grid">
+      <article class="card glass">
+        <h3 data-i18n="loading">Loading...</h3>
+      </article>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container" data-i18n="footer">
+      &copy; 2026 884shuta.
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

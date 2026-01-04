@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | 884shuta</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-asset-prefix="./">
+
+  <!-- ナビゲーション -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="glass-nav glass">
+        <a href="index.html" class="logo">PORTFOLIO</a>
+
+        <div class="nav-links">
+          <a href="projects/index.html" data-i18n="nav_projects">Projects</a>
+          <a href="about/index.html" data-i18n="nav_about">About</a>
+          <a href="contact/index.html" data-i18n="nav_contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="btn-text lang-btn active" data-lang="en">EN</button>
+          <button class="btn-text lang-btn" data-lang="ja">JA</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1 class="glass-text" data-i18n="hero_title">Creative Developer</h1>
+      <p class="lead" data-i18n="hero_desc">
+        Building digital products with a focus on modern aesthetics, performance, and user experience.
+      </p>
+      <div class="hero-cta">
+        <a href="projects/index.html" class="btn" data-i18n="hero_cta">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 注目プロジェクト -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 data-i18n="featured_title">Featured Projects</h2>
+    <div id="featured-list" class="grid">
+      <article class="card glass">
+        <h3 data-i18n="loading">Loading...</h3>
+      </article>
+    </div>
+    <div style="text-align: center; margin-top: 3rem;">
+      <a href="projects/index.html" style="color: var(--accent); font-weight: 500;" data-i18n="view_all">View All
+        Projects &rarr;</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container" data-i18n="footer">
+      &copy; 2026 884shuta.
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

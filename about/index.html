@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Portfolio</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+
+<body data-asset-prefix="../">
+
+  <header class="site-header">
+    <div class="container">
+      <nav class="glass-nav glass">
+        <a href="../index.html" class="logo">PORTFOLIO</a>
+
+        <div class="nav-links">
+          <a href="../projects/index.html" data-i18n="nav_projects">Projects</a>
+          <a href="index.html" class="active" data-i18n="nav_about">About</a>
+          <a href="../contact/index.html" data-i18n="nav_contact">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="btn-text lang-btn active" data-lang="en">EN</button>
+          <button class="btn-text lang-btn" data-lang="ja">JA</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="container" style="padding: 4rem 0;">
+    <h1 data-i18n="about_title">About Me</h1>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 4rem;">
+
+      <!-- プロフィール -->
+      <div>
+        <div class="glass" style="padding: 2rem; margin-bottom: 2rem;">
+          <h2 style="border: none; padding: 0;" data-i18n="about_profile_title">Profile</h2>
+          <p data-i18n="about_profile_desc">
+            I am a passionate frontend developer and UI/UX enthusiast. I love turning complex problems into simple,
+            beautiful, and intuitive interface designs.
+          </p>
+          <p data-i18n="about_profile_desc2">
+            With a background in computer science and design, I bridge the gap between engineering and art.
+          </p>
+        </div>
+
+        <h3 data-i18n="about_skills_title">Skills</h3>
+        <div class="skills-grid">
+          <span class="tag">HTML5 / CSS3</span>
+          <span class="tag">JavaScript (ES6+)</span>
+          <span class="tag">React / Vue</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">UI Design (Figma)</span>
+          <span class="tag">Git / CI/CD</span>
+        </div>
+      </div>
+
+      <!-- 経歴 -->
+      <div>
+        <h2 data-i18n="about_exp_title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="time-date">2024 - Present</span>
+            <h3 data-i18n="about_exp_1_role">Senior Frontend Engineer</h3>
+            <p data-i18n="about_exp_1_comp">Tech Corp Inc.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time-date">2022 - 2024</span>
+            <h3 data-i18n="about_exp_2_role">Web Developer</h3>
+            <p data-i18n="about_exp_2_comp">Creative Studio</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time-date">2020 - 2022</span>
+            <h3 data-i18n="about_exp_3_role">Junior Designer</h3>
+            <p data-i18n="about_exp_3_comp">Design Agency</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container" data-i18n="footer">
+      &copy; 2026 884shuta.
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

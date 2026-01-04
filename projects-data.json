@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "E-Commerce Platform",
+    "title_ja": "Eコマースプラットフォーム",
+    "description": "A full-featured online store built with modern stack. Includes cart functionality, payment processing, and user auth.",
+    "description_ja": "モダンなスタックで構築されたフル機能のオンラインストア。カート機能、支払い処理、ユーザー認証を含みます。",
+    "tags": [
+      "React",
+      "Node.js",
+      "MongoDB"
+    ],
+    "link": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Weather Dashboard",
+    "title_ja": "天気予報ダッシュボード",
+    "description": "Real-time weather application using OpenWeather API. Features geolocation and local storage for saved locations.",
+    "description_ja": "OpenWeather APIを使用したリアルタイム天気予報アプリ。ローカルストレージに位置情報を保存します。",
+    "tags": [
+      "JavaScript",
+      "API",
+      "CSS3"
+    ],
+    "link": "#",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Task Management App",
+    "title_ja": "タスク管理アプリ",
+    "description": "Productivity tool with drag-and-drop interface for organizing daily tasks and team workflows.",
+    "description_ja": "ドラッグ＆ドロップインターフェースを備えた生産性向上のためのツール。チームのタスク整理に役立ちます。",
+    "tags": [
+      "Vue.js",
+      "Firebase",
+      "Sass"
+    ],
+    "link": "#",
+    "featured": false
+  }
+]
