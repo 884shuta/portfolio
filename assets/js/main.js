@@ -85,6 +85,7 @@ let globalProjectsData = [];
 document.addEventListener("DOMContentLoaded", async () => {
   initLanguage();
   initStickyNav();
+  initMobileMenu();
   await initData();
 });
 
@@ -136,6 +137,33 @@ function initStickyNav() {
   const header = document.querySelector(".site-header");
   window.addEventListener("scroll", () => {
     header.classList.toggle("scrolled", window.scrollY > 50);
+  });
+}
+
+function initMobileMenu() {
+  const toggleBtn = document.getElementById("menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  if (!toggleBtn || !navLinks) return;
+
+  // Toggle Menu
+  toggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    navLinks.classList.toggle("active");
+  });
+
+  // Close when clicking a link
+  navLinks.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+    });
+  });
+
+  // Close when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!navLinks.contains(e.target) && !toggleBtn.contains(e.target)) {
+      navLinks.classList.remove("active");
+    }
   });
 }
 
